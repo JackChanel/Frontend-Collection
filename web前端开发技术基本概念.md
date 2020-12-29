@@ -34,12 +34,12 @@ A：
 
   - 主要用于无序列表的渲染
 
-    <img src="Untitled.assets/image-20201226215935823.png" alt="image-20201226215935823" style="zoom:50%;" />
+    <img src="https://i.loli.net/2020/12/29/nisce7zyG8pXNUE.png" alt="image-20201226215935823" style="zoom:50%;" />
 
 - 表格元素
 
   - `<table>、<tr>、<td>`
-  - 主要用于表格渲染，以及用于页面分块<img src="Untitled.assets/image-20201226220502869.png" alt="image-20201226220502869" style="zoom:50%;" />
+  - 主要用于表格渲染，以及用于页面分块<img src="https://i.loli.net/2020/12/29/I7U5MFyTnkhGwux.png" alt="image-20201226220502869" style="zoom:50%;" />
 
 - 块元素 block Element
 
@@ -395,9 +395,10 @@ request(opts){
 请说明下列各概念，并解释它们的区别(正反例)
 
 - 安全字体、网络字体、图标字体
+
   - 安全字体：在Web编码中，CSS默认应用的Web字体，使用安全字体不容易出现字体相关的错误。
   - 网络字体：Web浏览者可能本地不存在Web开发者设定的字体，那么就需要从网络上获取这些字体资源，CSS有一种标记叫做`@font-face`，在`@font-face`声明里，你可以声明一种字体，指定这种字体字体库文件从网络中的某个地方下载。
-  
+
   ```css
   @font-face {
     font-family: '徐静蕾手写体';
@@ -408,9 +409,9 @@ request(opts){
          url('http://www.webhek.com/徐静蕾手写体.svg#svgFontName') format('svg');/* Legacy iOS */
   }
   ```
-  
+
   - 图标字体：图标字体是使用微小图像而不是字母形式的字体。 与字符一样，每个图标字体都是矢量元素，可根据需要进行伸缩，并可以使用CSS样式进行修改。使用图标字体的主要原因是可以轻松更改大小，颜色，形状。 图标字体本质上是透明的，因此可以将它们放在任何颜色或类型的背景上，还可以添加笔触或更改图标的不透明度。
-  
+
 - Javascript与node.js
 
   - Javascript：JavaScript 是一种轻量级的编程语言。JavaScript 是可插入 HTML 页面的编程代码。JavaScript 插入 HTML 页面后，可由所有的现代浏览器执行。
@@ -561,7 +562,7 @@ request(opts){
 - 在node.js环境下，能使用jquery库吗？为什么？
 
   - 一般情况下不可以
-  
+
 - 什么是单页应用？和服务端驱动的多页应用相比？它有什么特点？其优势与劣势是什么？
 
   - 单页面应用（SPA）通俗点说就是指只有一个主页面的应用，浏览器一开始要加载所有必须的 html,css,js。所有的页面内容都包含在这个所谓的主页中。但是写的时候，还是会分开写（页面片段），然后在交互的时候由 路由程序动态载入，单页面的页面跳转，仅刷新局部资源。多应用于PC端。多页面应用 （MPA）一个应用中有 **多个页面**，页面跳转的时候是 **整页进行刷新**。
