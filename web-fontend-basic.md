@@ -494,7 +494,7 @@ request(opts){
 
   - http协议：超文本传输协议，是一个基于请求与响应，无状态的，应用层的协议，常基于TCP/IP协议传输数据，互联网上应用最为广泛的一种网络协议,所有的WWW文件都必须遵守这个标准。设计HTTP的初衷是为了提供一种发布和接收HTML页面的方法。
   - https协议：HTTPS是一种通过计算机网络进行安全通信的传输协议，经由HTTP进行通信，利用SSL/TLS建立全信道，加密数据包。HTTPS使用的主要目的是提供对网站服务器的身份认证，同时保护交换数据的隐私与完整性。
-  
+
   
 
 ##### 简答
@@ -608,13 +608,13 @@ request(opts){
 
     捕获阶段：事件从根节点流向目标节点，途中流经各个DOM节点，在各个节点上触发捕获事件，直到达到目标节点。
 
-     ![_](https://i.loli.net/2020/12/29/7gxSonl2bPCy9NH.png)
+     ![_](https://labraff-img.oss-cn-hangzhou.aliyuncs.com/img/7gxSonl2bPCy9NH.png)
 
     目标阶段：事件到达目标节点时，就到了目标阶段，事件在目标节点上被触发。
 
     冒泡阶段：事件在目标节点上触发后，不会终止，一层层向上冒，回溯到根节点。
 
-    ![_](https://i.loli.net/2020/12/29/jNfPWUoV3Q198Ik.png)
+    ![_](https://labraff-img.oss-cn-hangzhou.aliyuncs.com/img/jNfPWUoV3Q198Ik.png)
 
 - 什么是浏览器缓存？
 
