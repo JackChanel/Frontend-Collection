@@ -1,5 +1,9 @@
 ### web前端开发技术基本概念（Edited by Labraff）
 
+国内访问：https://gitee.com/labraff/frontend-collection/blob/master/web-fontend-basic.md
+
+外网访问：https://github.com/Labraff/Frontend-Collection/blob/master/web-fontend-basic.md
+
 ##### 基础知识
 
 1. 用户场景： 用户使用Web浏览器访问某购物网站，在地址栏里输入：http://x.com/index.php ，然后按回车键，看到了琳琅满目的商品首页
