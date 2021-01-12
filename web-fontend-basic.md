@@ -43,7 +43,9 @@ A：
 - 表格元素
 
   - `<table>、<tr>、<td>`
-  - 主要用于表格渲染，以及用于页面分块![nisce7zyG8pXNUE](https://labraff-img.oss-cn-hangzhou.aliyuncs.com/img/nisce7zyG8pXNUE.png)om:50%;" />
+  - 主要用于表格渲染，以及用于页面分块
+
+  <img src="https://labraff-img.oss-cn-hangzhou.aliyuncs.com/img/image-20210112104701954.png" alt="image-20210112104701954" style="zoom:50%;" />
 
 - 块元素 block Element
 
